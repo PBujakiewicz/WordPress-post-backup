@@ -643,7 +643,7 @@ sudo docker swarm init --advertise-addr 192.168.0.1
 
 2. Try add the worker on **2** node:
 ```
-sudo docker swarm join --token SWMTKN-1-3b33jjwsqpkcy2c8og73aorjf2ao9sjm4crvbwg3xpd1ome459-ckfdcxqqahb9gy9s2t9n5mi78 192.168.0.1:2377
+sudo docker swarm join --token SWMTKN-1-xxx-xxx 192.168.0.1:2377
 ```
 
 I have error:`Error response from daemon: rpc error: code = Unavailable desc = grpc: the connection is unavailable`
